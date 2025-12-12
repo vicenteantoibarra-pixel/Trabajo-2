@@ -1,4 +1,3 @@
-# ejercicio1/clases/vehiculos.py
 
 class Vehiculo:
     def __init__(self, identificador, marca, modelo, anio):
@@ -55,7 +54,6 @@ class Camion(Vehiculo):
 
 class Flota:
     def __init__(self):
-        # guardo los vehículos en un diccionario
         self.vehiculos = {}
 
     def agregar_vehiculo(self, vehiculo):

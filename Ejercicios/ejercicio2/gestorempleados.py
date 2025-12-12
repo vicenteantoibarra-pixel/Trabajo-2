@@ -18,7 +18,7 @@ class Trabajador:
 class Vendedor(Trabajador):
     def __init__(self, nombre, rut, sueldo_base, porcentaje_comision, ventas_mes, activo=True):
         super().__init__(nombre, rut, sueldo_base, activo)
-        self.porcentaje_comision = porcentaje_comision  # ejemplo: 0.05 = 5%
+        self.porcentaje_comision = porcentaje_comision  
         self.ventas_mes = ventas_mes
 
     def calcular_sueldo_final(self):
