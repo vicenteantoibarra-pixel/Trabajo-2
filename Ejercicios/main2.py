@@ -8,7 +8,7 @@ vendedor1 = Vendedor(
     nombre="Juan Pérez",
     rut="11.111.111-1",
     sueldo_base=500000,
-    porcentaje_comision=0.05,  # 5%
+    porcentaje_comision=0.05, 
     ventas_mes=2000000
 )
 
